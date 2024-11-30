@@ -48,14 +48,14 @@ dependencies {
 
 }
 
-afterEvaluate{
-    publishing{
-        publications{
-            create("release", MavenPublication::class.java) {
-                from(components["release"])
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                from (components["release"])
                 groupId = "com.github.muathomarieh"
-                artifactId = "speedy-slider"
-                version = "1.0.0" 
+                artifactId = "mint-android-app"
+                version = "0.0.4"
             }
         }
     }
