@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
     id("maven-publish")
 }
 
@@ -54,8 +55,8 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 from (components["release"])
                 groupId = "com.github.muathomarieh"
-                artifactId = "mint-android-app"
-                version = "0.0.4"
+                artifactId = "SpeedySlider"
+                version = "1.0.0"
             }
         }
     }
