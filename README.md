@@ -4,8 +4,8 @@ A highly customizable composable function that provides an interactive, animated
 
 ## ScreenShot
 
+![SpeedySlider](https://github.com/user-attachments/assets/629a5b3e-30d1-4425-a707-8630743852da)
 
-![Speedy](https://github.com/user-attachments/assets/130a631f-1fb7-4353-ac5c-eec761f2c24a)
 
 ## Example
 
